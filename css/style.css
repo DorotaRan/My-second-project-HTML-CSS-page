@@ -1,0 +1,156 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Nunito Sans', 'Arial', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+section {
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 45px;
+    margin: 10px 0 30px 0;
+    color: #212353
+}
+
+h2 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+    color: #212353
+}
+
+h3 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+}
+
+/* NAVIGATION */
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    color: #4B5D68;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 5%;
+    height: auto;
+}
+
+.logo-circle {
+    width: 20px;
+    height: 20px;
+    background: #9C69E2;
+    border-radius: 20px;
+}
+
+.logo-oval {
+    width: 20px;
+    height: 35px;
+    background: #F063B8;
+    border-radius: 20px;
+}
+
+
+
+.navigation .bold-text {
+    color: #212353;
+    font-weight: 800;
+}
+
+/* MAIN */
+
+.landing-page-text {
+    display: flex;
+    align-self: start;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+}
+
+.landing-page-text-p {
+    width: 69%;
+    height: 100%;
+    z-index: 1;
+}
+
+.landing-page-image {
+    width: 45%;
+    height: auto;
+    z-index: 2;
+    position: relative;
+    left: -181px;
+    bottom: -52px;
+    background-image: url("/images/image1.svg");
+    
+   
+}
+
+.landing-page-text > button {
+    background-color: #9C69E2;
+    color: white;
+    width: 34%;
+    border-radius: 50%;
+}
+.about-us {
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.about-us-image {
+    width: 50%;
+    height: auto;
+    position: fixed;
+    background-image: url("/images/image2.svg");
+}
+
+.about-us-text {
+    margin: 20px;
+}
+
