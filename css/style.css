@@ -35,10 +35,29 @@ h3 {
     font-size: 24px;
 }
 
+h4 {
+    font-weight: 900;
+    font-size: 18px;
+    color: #212353;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #9C69E2;
+}
+
+
 p {
     font-weight: 400;
     font-size: 18px;
     line-height: 200%;
+}
+
+span {
+    color: #212353;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .button-cilinder {
@@ -47,31 +66,6 @@ p {
     width: 150px;
     height: 30px;
     border-radius: 50px;
-}
-
-/* NAVIGATION */
-
-nav {
-    width: 100%;
-    height: 100px;
-}
-
-.nav-logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 5%;
-    height: 100%;
-}
-
-.nav-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 85%;
-    height: 100%;
 }
 
 .logo-circle {
@@ -86,6 +80,31 @@ nav {
     height: 35px;
     background: #F063B8;
     border-radius: 20px;
+}
+
+/* NAVIGATION */
+
+nav {
+    width: 100%;
+    height: 100px;
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 5%;
+    height: 100%;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 100%;
 }
 
 .nav-links a {
@@ -111,7 +130,6 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    align-items: center;
     background: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     color: #212353;
@@ -132,6 +150,7 @@ nav {
 
 .landing-page {
     height: calc(100vh - 300px);
+    position: relative;
 }
 
 .landing-page-text {
@@ -150,22 +169,16 @@ nav {
     width: 37%;
 }
 
-.landing-page-text > button {
-    background-color: #9C69E2;
-    color: white;
-    width: 20%;
-    border-radius: 50%;
-}
-
 .landing-page > img {
     position: absolute;
-    right: 114px;
-    bottom: 161px;
+    right: -110px;
+    bottom: 279px;
 }
 
 .landing-page-button {
-    background: #9C69E2;
+    background-color: #9C69E2;
     color: white;
+    width: 20%;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     text-align: center;
     text-decoration: none;
@@ -270,11 +283,8 @@ nav {
 
 .features-button {
     background: transparent;
-    color: #212353;
     text-align: center;
     text-decoration: none;
-    font-weight: 800;
-    font-size: 18px;
 }
 
 .features-button > i {
@@ -283,11 +293,137 @@ nav {
 }
 
 .gallery {
+    display: flex;
     margin-top: 100px;
     background-color: #9C69E2;
     border-radius: 50px;
-    height: 560px;
+    height: 709px;
+    justify-content: center;
 }
+
+.gallery-box {
+    width: 80%;
+    height: 90%;
+}
+
+.gallery-box > h2 {
+    color: white;
+    margin: 100px 0;
+}
+
+.gallery-box-presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+}
+
+.gallery-box-presentation  > div{
+    background-color: white;
+    border: 1px solid #9C69E2;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.gallery-box-big {
+    width: 600px;
+    height: 350px;
+    background-color: white;
+}
+
+.gallery-box-small-left, .gallery-box-small-right {
+    width: 372px;
+    height: 350px;
+}
+
+.gallery-box-small-left {
+    position: absolute;
+    right: -220px;
+}
+
+.gallery-box-small-right {
+    position: absolute;
+    right: -611px;
+}
+
+.gallery-box-image {
+    width: 100px;
+    padding-bottom: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+    flex-shrink: 0;
+    margin: 40px 10px auto 30px;
+    background-image: url(../images/woman-751236_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery-box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    text-align: justify;
+    margin: 40px 0 auto 0;
+}
+
+.gallery-box-big > .gallery-box-text {
+    margin-right: 30px;
+}
+
+.tryit {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tryit-buttons {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tryit-learn-button {
+    width: 35%;
+    background-color: #F063B8;
+} 
+
+.tryit-demo-button {
+    width: 35%;
+    text-decoration: none;
+}
+
+.contact {
+    height: 400px;
+}
+
+.contact-data,.social-media {
+    width: 30%
+}
+
+.about, .home {
+    width: 20%
+}
+
+.contact-data-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 30%;
+    height: 100%;
+}
+
 
 
 
