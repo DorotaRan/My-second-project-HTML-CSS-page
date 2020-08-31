@@ -1,0 +1,125 @@
+@media (min-width: 1024px) {
+    .container {
+        width: 960px;
+    } 
+
+    h1 {
+        font-size: 70px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .landing-page {
+        position: relative;
+        flex-direction: row;
+    }
+    
+    .landing-page-text {
+        align-items: flex-start;
+        height: 80%;
+    }
+    
+    .landing-page-text > h1 {
+        width: 53%;
+        text-align: justify;
+    } 
+    
+    .landing-page-text > p {
+        width: 37%;
+        text-align: justify;
+    }
+    
+    .landing-page > img {
+        position: absolute;
+        right: -160px;
+        bottom: 116px;
+        width: 80%;
+    }
+    
+    .features {
+        flex-wrap: wrap;
+    }
+
+    .features-box {
+        width: 45%;
+        height: 45%;
+    }
+
+    .features-box > img {
+        position: absolute;
+        right: 340px;
+    }
+
+    .features-box-text {
+        width: 67%;
+        right: -100px;
+        height: 62%;
+        align-items: flex-start;
+    }
+
+    .testimonials {
+        height: 650px;
+    }
+    
+    .testimonial-box {
+        width: 80%;
+        height: 70%;
+        text-align: start;
+    }
+    
+    .testimonial-box > h2 {
+        margin: 50px 0;
+    }
+    
+    .testimonial-box-presentation {
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    
+    .testimonial-box-big {
+        width: 600px;
+        height: 350px;
+    }
+    
+    .testimonial-box-small-left, .testimonial-box-small-right {
+        width: 372px;
+        height: 350px;
+    }
+    
+    .testimonial-box-small-left {
+        position: absolute;
+        right: -220px;
+    }
+    
+    .testimonial-box-small-right {
+        position: absolute;
+        right: -611px;
+    }
+    
+    .testimonial-box-image {
+        margin: 40px 10px auto 30px;
+    }
+    
+    .testimonial-box-big > .testimonial-box-text {
+        margin-right: 30px;
+    }
+
+    .try-it {
+        flex-direction: row;
+    }
+    
+    .try-it-text {
+        align-items: flex-start;
+    }
+
+    .contact-data-text {
+        align-items: flex-start;
+    }
+
+    .footer-text {
+        width: 40%;
+    }
+}
