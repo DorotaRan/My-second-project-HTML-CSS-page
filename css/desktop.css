@@ -88,6 +88,12 @@
         width: 372px;
         height: 350px;
     }
+
+    .testimonials-gradient {
+        background-image: linear-gradient(to right, transparent, white);
+        width: 372px;
+        height: 350px;
+    }
     
     .testimonial-box-small-left {
         position: absolute;

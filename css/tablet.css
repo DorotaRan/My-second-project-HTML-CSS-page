@@ -94,7 +94,12 @@
     .testimonial-box-small-left, .testimonial-box-small-right {
         width: 100%;
         height: 30%;
-    }    
+    }   
+
+    .testimonials-gradient {
+        width: 100%;
+        height: 30%;
+    }
     
     .try-it-buttons {
         width: 50%;

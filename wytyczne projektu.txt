@@ -1,0 +1,5 @@
+https://www.figma.com/file/4aVUTUIQobT41w5rVKwlQO/data-warehouse-landing-page-for-figma 
+
+Wykorzystując powyższego linka do designu na portalu Figma, zastosuj wszystkie poznane Ci wcześniej 
+praktyki do zaprogramowania widoków zgodnie z designem. Nie musisz implementować żadnych funkcjonalności, 
+wystarczy sam design. 
